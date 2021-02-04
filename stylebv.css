@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+
+body{
+	margin:0px;
+	padding:0px;
+	background-color:rgb(241, 229, 229);	
+	font-family: Arial, 'Lucida Sans';
+
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+#main{
+	padding:30px 40px;
+	position:relative;
+	width: auto;
+	height: 160vh;
+	box-sizing: border-box;
+	background-size: auto;
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-image: url(../fotos/header-img.jpg);
+	background-color: #292929;
+
+}
+
+nav{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: Arial, 'Lucida Sans';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:94%;
+	box-sizing: content-box;
+	padding: 10px 40px;
+	background-color: #23282d;
+	box-shadow:2px 2px 15px rgba(0,0,0,0.05); 
+	z-index: 1;
+}
+
+.menu{
+	display: flex;
+}
+
+.menu li a{
+	padding: 10px 25px;
+	color:white;
+	font-size: 12px;
+		
+}
+.logo{
+	font-size: 25px;
+	font-weight: bold;
+	color:white;
+	font-family: Arial, 'Lucida Sans';
+}
+.toggle{
+	display: none;
+}
+
+.menu li a:hover{
+	background-color:white;
+	color: black;
+	font-weight: bold;
+	transition: all ease 0.4s;
+}
+.name{
+	font-family: Arial, 'Lucida Sans';
+	width: 700px;
+	position: absolute;
+	left: 15%;
+	top: 30%;
+	transform: translate(-20%,-50%);
+}
+.name p:nth-child(1),.name .details{
+	color: darkblue;
+	font-size: 35px;
+	margin: 20px, 0px, ;
+}
+.name h1{
+	font-family: Arial, 'Lucida Sans';
+	font-size: 57px;
+	margin: 20px, 0px, ;
+	letter-spacing: 0px;
+	color: darkblue;
+}
+#button1{
+	width:150px;
+	height: 45px;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	background-color: darkblue;
+	color:#FFFFFF;
+}
+
+
+#button1:hover{
+	background-color: #131313;
+	transition: all ease 0.5s;
+}
+#about{
+	width:100%;
+	height: 100vh;
+	background-color:black;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 5% 0px 5%;
+	position: relative;
+}
+.about-text{
+	font-family: calibri;
+	width: 50%;
+}
+.about-text h1{
+	font-size: 5rem;
+	color:lightskyblue;
+}
+.about-text h2{
+	font-size: 3rem;
+	color:#FFFFFF;
+	font-weight: 400;
+}
+.about-text h1,h2{
+	margin: 0px;
+	padding: 0px;
+}
+.about-text p{
+	font-size: 1.2rem;
+	color:white;
+	
+}
+.about-text button{
+	width: 180px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background-color:lightskyblue;
+}
+.about-text button:hover{
+	background-color: #FFFFFF;
+	transition: all ease 0.3s;
+}
